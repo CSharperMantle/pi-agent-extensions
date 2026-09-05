@@ -1,0 +1,3 @@
+[submodule "pi-auto-temp-dir"]
+	path = pi-auto-temp-dir
+	url = https://github.com/CSharperMantle/pi-auto-temp-dir.git
