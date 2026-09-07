@@ -1,0 +1,6 @@
+# HACK: Per Pi.dev ignore file handling order, this following pattern
+# negates the ignore effect of .gitignore. This can make Pi.dev properly
+# discover the provider extensions while avoiding checking them into Git.
+#
+# https://github.com/earendil-works/pi/blob/9767ba275f3e9a5ee0f5c5342249b629ab1b2282/packages/coding-agent/src/core/package-manager.ts#L213
+!provider-*.ts
