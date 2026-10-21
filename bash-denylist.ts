@@ -7,6 +7,7 @@ const PATTERN_DENYLIST = [
   /:\(\)\s*\{.*:\s*\};\s*:/,
   /([^A-Za-z]|^)jj\s+(describe|rebase|commit|restore|op|squash)/,
   /([^A-Za-z]|^)(sed|awk|env|tmux|screen|patch)\s+/,
+  /([^A-Za-z]|^)cat\s+>[^>]/,
   /([^A-Za-z]|^)git\s+(config|commit|rebase|revert|reset|restore|fetch|push|pull)/,
   /([^A-Za-z]|^)rg\s+(-r|-rn)/,
 ];
